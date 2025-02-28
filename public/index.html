@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RPG Combat Simulator</title>
+    <style>
+        #game-container { position: relative; }
+        #turns-input {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <input type="number" id="turns-input" placeholder="Number of turns (default: 10)" min="1">
+        <div id="phaser-game"></div>
+    </div>
+</body>
+</html>
